@@ -1,0 +1,583 @@
+
+*** Running vivado
+    with args -log main.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source main.tcl -notrace
+Command: synth_design -top main -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13441 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1563.777 ; gain = 70.941 ; free physical = 559 ; free virtual = 4566
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main' [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:50]
+WARNING: [Synth 8-6014] Unused sequential element v002_a_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:240]
+WARNING: [Synth 8-6014] Unused sequential element v003_b_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:241]
+WARNING: [Synth 8-6014] Unused sequential element v004_c_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:242]
+WARNING: [Synth 8-6014] Unused sequential element v005_i_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:243]
+WARNING: [Synth 8-6014] Unused sequential element v007_x_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:245]
+WARNING: [Synth 8-6014] Unused sequential element v008_y_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:246]
+WARNING: [Synth 8-6014] Unused sequential element v009_z_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:247]
+WARNING: [Synth 8-6014] Unused sequential element temporary0000_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:248]
+WARNING: [Synth 8-6014] Unused sequential element temporary0001_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:249]
+WARNING: [Synth 8-6014] Unused sequential element temporary0002_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:250]
+WARNING: [Synth 8-6014] Unused sequential element temporary0003_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:251]
+WARNING: [Synth 8-6014] Unused sequential element temporary0004_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:252]
+WARNING: [Synth 8-6014] Unused sequential element temporary0005_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:253]
+WARNING: [Synth 8-6014] Unused sequential element temporary0006_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:254]
+WARNING: [Synth 8-6014] Unused sequential element temporary0007_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:255]
+WARNING: [Synth 8-6014] Unused sequential element temporary0008_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:256]
+WARNING: [Synth 8-6014] Unused sequential element temporary0009_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:257]
+WARNING: [Synth 8-6014] Unused sequential element temporary0010_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:258]
+WARNING: [Synth 8-6014] Unused sequential element temporary0011_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:259]
+WARNING: [Synth 8-6014] Unused sequential element temporary0012_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:260]
+WARNING: [Synth 8-6014] Unused sequential element temporary0013_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:261]
+WARNING: [Synth 8-6014] Unused sequential element temporary0014_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:262]
+WARNING: [Synth 8-6014] Unused sequential element temporary0015_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:263]
+WARNING: [Synth 8-6014] Unused sequential element temporary0016_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:264]
+WARNING: [Synth 8-6014] Unused sequential element temporary0017_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:265]
+WARNING: [Synth 8-6014] Unused sequential element temporary0018_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:266]
+WARNING: [Synth 8-6014] Unused sequential element temporary0019_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:267]
+WARNING: [Synth 8-6014] Unused sequential element temporary0020_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:268]
+WARNING: [Synth 8-6014] Unused sequential element temporary0021_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:269]
+WARNING: [Synth 8-6014] Unused sequential element temporary0022_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:270]
+WARNING: [Synth 8-6014] Unused sequential element temporary0023_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:271]
+WARNING: [Synth 8-6014] Unused sequential element temporary0024_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:272]
+WARNING: [Synth 8-6014] Unused sequential element temporary0025_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:273]
+WARNING: [Synth 8-6014] Unused sequential element temporary0026_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:274]
+WARNING: [Synth 8-6014] Unused sequential element temporary0027_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:275]
+WARNING: [Synth 8-6014] Unused sequential element temporary0028_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:276]
+WARNING: [Synth 8-6014] Unused sequential element temporary0029_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:277]
+WARNING: [Synth 8-6014] Unused sequential element temporary0030_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element temporary0031_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:279]
+WARNING: [Synth 8-6014] Unused sequential element temporary0032_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:280]
+WARNING: [Synth 8-6014] Unused sequential element temporary0033_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:281]
+WARNING: [Synth 8-6014] Unused sequential element temporary0034_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:282]
+WARNING: [Synth 8-6014] Unused sequential element temporary0035_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:283]
+WARNING: [Synth 8-6014] Unused sequential element temporary0036_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:284]
+WARNING: [Synth 8-6014] Unused sequential element temporary0037_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:285]
+WARNING: [Synth 8-6014] Unused sequential element temporary0038_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:286]
+WARNING: [Synth 8-6014] Unused sequential element temporary0039_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:287]
+WARNING: [Synth 8-6014] Unused sequential element temporary0040_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:288]
+WARNING: [Synth 8-6014] Unused sequential element temporary0041_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:289]
+WARNING: [Synth 8-6014] Unused sequential element temporary0042_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:290]
+WARNING: [Synth 8-6014] Unused sequential element temporary0043_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:291]
+WARNING: [Synth 8-6014] Unused sequential element temporary0044_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:292]
+WARNING: [Synth 8-6014] Unused sequential element temporary0045_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:293]
+WARNING: [Synth 8-6014] Unused sequential element temporary0046_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:294]
+WARNING: [Synth 8-6014] Unused sequential element temporary0047_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:295]
+WARNING: [Synth 8-6014] Unused sequential element temporary0048_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:296]
+WARNING: [Synth 8-6014] Unused sequential element temporary0049_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:297]
+WARNING: [Synth 8-6014] Unused sequential element temporary0050_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:298]
+WARNING: [Synth 8-6014] Unused sequential element temporary0051_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:299]
+WARNING: [Synth 8-6014] Unused sequential element temporary0052_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:300]
+WARNING: [Synth 8-6014] Unused sequential element temporary0053_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:301]
+WARNING: [Synth 8-6014] Unused sequential element temporary0054_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:302]
+WARNING: [Synth 8-6014] Unused sequential element temporary0055_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:303]
+WARNING: [Synth 8-6014] Unused sequential element temporary0056_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:304]
+WARNING: [Synth 8-6014] Unused sequential element temporary0057_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:305]
+WARNING: [Synth 8-6014] Unused sequential element temporary0058_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:306]
+WARNING: [Synth 8-6014] Unused sequential element temporary0059_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:307]
+WARNING: [Synth 8-6014] Unused sequential element temporary0060_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:308]
+WARNING: [Synth 8-6014] Unused sequential element temporary0061_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:309]
+WARNING: [Synth 8-6014] Unused sequential element temporary0062_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:310]
+WARNING: [Synth 8-6014] Unused sequential element temporary0063_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:311]
+WARNING: [Synth 8-6014] Unused sequential element temporary0064_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:312]
+WARNING: [Synth 8-6014] Unused sequential element temporary0065_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:313]
+WARNING: [Synth 8-6014] Unused sequential element temporary0066_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:314]
+WARNING: [Synth 8-6014] Unused sequential element temporary0067_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:315]
+WARNING: [Synth 8-6014] Unused sequential element temporary0068_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:316]
+WARNING: [Synth 8-6014] Unused sequential element temporary0069_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:317]
+WARNING: [Synth 8-6014] Unused sequential element temporary0070_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:318]
+WARNING: [Synth 8-6014] Unused sequential element temporary0071_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:319]
+WARNING: [Synth 8-6014] Unused sequential element temporary0072_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:320]
+WARNING: [Synth 8-6014] Unused sequential element temporary0073_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:321]
+WARNING: [Synth 8-6014] Unused sequential element temporary0074_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:322]
+WARNING: [Synth 8-6014] Unused sequential element temporary0075_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:323]
+WARNING: [Synth 8-6014] Unused sequential element temporary0076_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:324]
+WARNING: [Synth 8-6014] Unused sequential element temporary0077_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:325]
+WARNING: [Synth 8-6014] Unused sequential element temporary0078_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:326]
+WARNING: [Synth 8-6014] Unused sequential element temporary0079_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:327]
+WARNING: [Synth 8-6014] Unused sequential element temporary0080_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:328]
+WARNING: [Synth 8-6014] Unused sequential element temporary0081_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:329]
+WARNING: [Synth 8-6014] Unused sequential element temporary0082_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:330]
+WARNING: [Synth 8-6014] Unused sequential element temporary0083_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:331]
+WARNING: [Synth 8-6014] Unused sequential element temporary0084_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:332]
+WARNING: [Synth 8-6014] Unused sequential element var3_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:339]
+WARNING: [Synth 8-6014] Unused sequential element var4_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:340]
+WARNING: [Synth 8-6014] Unused sequential element var5_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:341]
+WARNING: [Synth 8-6014] Unused sequential element var6_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:342]
+WARNING: [Synth 8-6014] Unused sequential element var7_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:343]
+WARNING: [Synth 8-6014] Unused sequential element var8_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:344]
+WARNING: [Synth 8-6014] Unused sequential element var9_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:345]
+WARNING: [Synth 8-6014] Unused sequential element var10_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:346]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'main' (1#1) [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:50]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[31]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[30]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[29]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[28]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[27]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[26]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[25]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[24]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[23]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[22]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[21]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[20]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[19]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[18]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[17]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[16]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[15]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[14]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[13]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[12]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[11]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[10]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[9]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[8]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[7]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[6]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[5]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[4]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[3]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[2]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[1]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1610.527 ; gain = 117.691 ; free physical = 522 ; free virtual = 4542
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1610.527 ; gain = 117.691 ; free physical = 525 ; free virtual = 4546
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1610.527 ; gain = 117.691 ; free physical = 525 ; free virtual = 4546
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.srcs/constrs_1/new/v2018_loop4_2_ouil_zedboard.xdc]
+WARNING: [Vivado 12-507] No nets matched 'reset_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.srcs/constrs_1/new/v2018_loop4_2_ouil_zedboard.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.srcs/constrs_1/new/v2018_loop4_2_ouil_zedboard.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'start_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.srcs/constrs_1/new/v2018_loop4_2_ouil_zedboard.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.srcs/constrs_1/new/v2018_loop4_2_ouil_zedboard.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'results_read_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.srcs/constrs_1/new/v2018_loop4_2_ouil_zedboard.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.srcs/constrs_1/new/v2018_loop4_2_ouil_zedboard.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'clock_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.srcs/constrs_1/new/v2018_loop4_2_ouil_zedboard.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.srcs/constrs_1/new/v2018_loop4_2_ouil_zedboard.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.srcs/constrs_1/new/v2018_loop4_2_ouil_zedboard.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.srcs/constrs_1/new/v2018_loop4_2_ouil_zedboard.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1942.566 ; gain = 0.000 ; free physical = 115 ; free virtual = 4161
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1942.566 ; gain = 0.000 ; free physical = 114 ; free virtual = 4160
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1942.566 ; gain = 0.000 ; free physical = 114 ; free virtual = 4160
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1942.566 ; gain = 0.000 ; free physical = 114 ; free virtual = 4160
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1942.566 ; gain = 449.730 ; free physical = 104 ; free virtual = 4118
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 1942.566 ; gain = 449.730 ; free physical = 100 ; free virtual = 4115
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:35 . Memory (MB): peak = 1942.566 ; gain = 449.730 ; free physical = 125 ; free virtual = 4131
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2022-12-29-15-38-58_loop4_2_ouil/main_parcs.vhd:384]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'main'
+INFO: [Synth 8-5546] ROM "index000" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "tempint000" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "var1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "var2" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "var35" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 state_0 |                          0000000 |                          1000000
+                 state_1 |                          0000001 |                          0111111
+                 state_2 |                          0000010 |                          0111110
+                 state_3 |                          0000011 |                          0111101
+                 state_4 |                          0000100 |                          0111100
+                 state_5 |                          0000101 |                          0111011
+                 state_6 |                          0000110 |                          0111010
+                 state_7 |                          0000111 |                          0111001
+                 state_8 |                          0001000 |                          0111000
+                 state_9 |                          0001001 |                          0110111
+                state_10 |                          0001010 |                          0110110
+                state_11 |                          0001011 |                          0110101
+                state_12 |                          0001100 |                          0110100
+                state_13 |                          0001101 |                          0110011
+                state_14 |                          0001110 |                          0110010
+                state_15 |                          0001111 |                          0110001
+                state_16 |                          0010000 |                          0110000
+                state_17 |                          0010001 |                          0101111
+                state_18 |                          0010010 |                          0101110
+                state_19 |                          0010011 |                          0101101
+                state_20 |                          0010100 |                          0101100
+                state_21 |                          0010101 |                          0101011
+                state_22 |                          0010110 |                          0101010
+                state_23 |                          0010111 |                          0101001
+                state_24 |                          0011000 |                          0101000
+                state_25 |                          0011001 |                          0100111
+                state_26 |                          0011010 |                          0100110
+                state_27 |                          0011011 |                          0100101
+                state_28 |                          0011100 |                          0100100
+                state_29 |                          0011101 |                          0100011
+                state_30 |                          0011110 |                          0100010
+                state_31 |                          0011111 |                          0100001
+                state_32 |                          0100000 |                          0100000
+                state_33 |                          0100001 |                          0011111
+                state_34 |                          0100010 |                          0011110
+                state_35 |                          0100011 |                          0011101
+                state_36 |                          0100100 |                          0011100
+                state_37 |                          0100101 |                          0011011
+                state_38 |                          0100110 |                          0011010
+                state_39 |                          0100111 |                          0011001
+                state_40 |                          0101000 |                          0011000
+                state_41 |                          0101001 |                          0010111
+                state_42 |                          0101010 |                          0010110
+                state_43 |                          0101011 |                          0010101
+                state_44 |                          0101100 |                          0010100
+                state_45 |                          0101101 |                          0010011
+                state_46 |                          0101110 |                          0010010
+                state_47 |                          0101111 |                          0010001
+                state_48 |                          0110000 |                          0010000
+                state_49 |                          0110001 |                          0001111
+                state_50 |                          0110010 |                          0001110
+                state_51 |                          0110011 |                          0001101
+                state_52 |                          0110100 |                          0001100
+                state_53 |                          0110101 |                          0001011
+                state_54 |                          0110110 |                          0001010
+                state_55 |                          0110111 |                          0001001
+                state_56 |                          0111000 |                          0001000
+                state_57 |                          0111001 |                          0000111
+                state_58 |                          0111010 |                          0000110
+                state_59 |                          0111011 |                          0000101
+                state_60 |                          0111100 |                          0000100
+                state_61 |                          0111101 |                          0000011
+                state_62 |                          0111110 |                          0000010
+                state_63 |                          0111111 |                          0000001
+                state_64 |                          1000000 |                          0000000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'main'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 1942.566 ; gain = 449.730 ; free physical = 118 ; free virtual = 4090
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	  65 Input     32 Bit        Muxes := 5     
+	  65 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+	  65 Input      1 Bit        Muxes := 14    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module main 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	  65 Input     32 Bit        Muxes := 5     
+	  65 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+	  65 Input      1 Bit        Muxes := 14    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[31]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[30]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[29]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[28]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[27]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[26]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[25]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[24]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[23]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[22]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[21]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[20]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[19]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[18]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[17]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[16]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[15]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[14]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[13]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[12]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[11]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[10]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[9]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[8]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[7]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[6]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[5]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[4]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[3]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[2]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[1]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[0]
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[0]' (FDRE) to 'tempint000_reg[5]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[1]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[2]' (FDRE) to 'tempint000_reg[5]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[3]' (FDRE) to 'tempint000_reg[5]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[4]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[6]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[7]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[8]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[9]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[10]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[11]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[12]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[13]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[14]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[15]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[16]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[17]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[18]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[19]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[20]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[21]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[22]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[23]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[24]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[25]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[26]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[27]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[28]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[29]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3886] merging instance 'tempint000_reg[30]' (FDRE) to 'tempint000_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\tempint000_reg[31] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:38 . Memory (MB): peak = 1942.566 ; gain = 449.730 ; free physical = 105 ; free virtual = 3984
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:50 . Memory (MB): peak = 1942.566 ; gain = 449.730 ; free physical = 121 ; free virtual = 3744
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:51 . Memory (MB): peak = 1942.566 ; gain = 449.730 ; free physical = 113 ; free virtual = 3721
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:52 . Memory (MB): peak = 1943.574 ; gain = 450.738 ; free physical = 104 ; free virtual = 3714
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 1943.574 ; gain = 450.738 ; free physical = 116 ; free virtual = 3712
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 1943.574 ; gain = 450.738 ; free physical = 116 ; free virtual = 3712
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 1943.574 ; gain = 450.738 ; free physical = 116 ; free virtual = 3712
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 1943.574 ; gain = 450.738 ; free physical = 116 ; free virtual = 3712
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 1943.574 ; gain = 450.738 ; free physical = 116 ; free virtual = 3712
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 1943.574 ; gain = 450.738 ; free physical = 116 ; free virtual = 3712
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    40|
+|3     |LUT1   |    33|
+|4     |LUT2   |   118|
+|5     |LUT3   |     6|
+|6     |LUT4   |    74|
+|7     |LUT5   |    12|
+|8     |LUT6   |    19|
+|9     |MUXF7  |     1|
+|10    |FDRE   |   142|
+|11    |IBUF   |     4|
+|12    |OBUF   |     3|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   453|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 1943.574 ; gain = 450.738 ; free physical = 116 ; free virtual = 3712
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 32 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:36 . Memory (MB): peak = 1943.574 ; gain = 118.699 ; free physical = 151 ; free virtual = 3751
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:53 . Memory (MB): peak = 1943.582 ; gain = 450.738 ; free physical = 150 ; free virtual = 3751
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1943.582 ; gain = 0.000 ; free physical = 113 ; free virtual = 3717
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+58 Infos, 168 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:57 . Memory (MB): peak = 1943.582 ; gain = 450.805 ; free physical = 136 ; free virtual = 3743
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1943.582 ; gain = 0.000 ; free physical = 136 ; free virtual = 3743
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.runs/synth_1/main.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 22 17:38:52 2023...

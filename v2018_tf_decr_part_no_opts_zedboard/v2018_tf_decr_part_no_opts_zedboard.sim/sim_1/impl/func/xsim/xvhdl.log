@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marga/v2018_tf_decr_part_no_opts_zedboard/v2018_tf_decr_part_no_opts_zedboard.sim/sim_1/impl/func/xsim/sim_source_testbench_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main'
+INFO: [VRFC 10-3107] analyzing entity 'top_level_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/rotr_parcs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rotr'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/rotl_parcs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'rotl'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/pow_parcs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pow'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/main_parcs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'main'
+WARNING: [VRFC 10-3607] overwriting existing primary unit 'main' [C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/main_parcs.vhd:44]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marga/v2018_tf_decr_part_no_opts_zedboard/v2018_tf_decr_part_no_opts_zedboard.srcs/sim_1/new/sim_source_testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sim_source_testbench'

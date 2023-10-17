@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Dec 30 13:49:21 2022
+# Process ID: 7396
+# Current directory: C:/Users/marga/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.sim/sim_1/impl/func/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/marga/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.sim/sim_1/impl/func/xsim/xsim.dir/main_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/marga/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.sim/sim_1/impl/func/xsim/webtalk.log
+# Journal file: C:/Users/marga/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.sim/sim_1/impl/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/marga/v2018_loop4_2_ouil_zedboard/v2018_loop4_2_ouil_zedboard.sim/sim_1/impl/func/xsim/xsim.dir/main_func_impl/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Dec 30 13:49:23 2022...

@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"sim_source_testbench_func_impl.vhd" \
+"../../../../../../Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/rotr_parcs.vhd" \
+"../../../../../../Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/rotl_parcs.vhd" \
+"../../../../../../Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/pow_parcs.vhd" \
+"../../../../../../Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/main_parcs.vhd" \
+"../../../../../v2018_tf_decr_part_no_opts_zedboard.srcs/sim_1/new/sim_source_testbench.vhd" \
+
+# Do not sort compile order
+nosort

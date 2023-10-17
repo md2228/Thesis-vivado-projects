@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marga/v2018_sha1_ofuilr_ocbe3_ocie3_zedboard/v2018_sha1_ofuilr_ocbe3_ocie3_zedboard.sim/sim_1/impl/func/xsim/sim_source_testbench_func_impl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'local_memcpy'
+INFO: [VRFC 10-3107] analyzing entity 'top_level_wrapper_sha1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marga/Documents/input_for_vivado/2023-01-27-17-34-38_sha1_ofuilr_ocbe3_ocie3/local_memcpy_parcs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'local_memcpy'
+WARNING: [VRFC 10-3607] overwriting existing primary unit 'local_memcpy' [C:/Users/marga/Documents/input_for_vivado/2023-01-27-17-34-38_sha1_ofuilr_ocbe3_ocie3/local_memcpy_parcs.vhd:124]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/marga/v2018_sha1_ofuilr_ocbe3_ocie3_zedboard/v2018_sha1_ofuilr_ocbe3_ocie3_zedboard.srcs/sim_1/new/sim_source_testbench.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sim_source_testbench'

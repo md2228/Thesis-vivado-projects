@@ -1,0 +1,647 @@
+
+*** Running vivado
+    with args -log top_level_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_level_wrapper.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top_level_wrapper.tcl -notrace
+Command: synth_design -top top_level_wrapper -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 16256 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1563.996 ; gain = 10.941 ; free physical = 116 ; free virtual = 4099
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_level_wrapper' [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:46]
+INFO: [Synth 8-3491] module 'main' declared at '/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:44' bound to instance 'main_i' of component 'main' [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'main' [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:69]
+WARNING: [Synth 8-6014] Unused sequential element v005_j_reg was removed.  [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:208]
+WARNING: [Synth 8-6014] Unused sequential element var8_reg was removed.  [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:271]
+WARNING: [Synth 8-6014] Unused sequential element var10_reg was removed.  [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:273]
+WARNING: [Synth 8-6014] Unused sequential element var13_reg was removed.  [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:276]
+WARNING: [Synth 8-6014] Unused sequential element var15_reg was removed.  [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:278]
+WARNING: [Synth 8-6014] Unused sequential element var16_reg was removed.  [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:279]
+WARNING: [Synth 8-6014] Unused sequential element var17_reg was removed.  [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:280]
+INFO: [Synth 8-256] done synthesizing module 'main' (1#1) [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:69]
+WARNING: [Synth 8-3848] Net rotr_done in module/entity top_level_wrapper does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:73]
+WARNING: [Synth 8-3848] Net rotr_busy in module/entity top_level_wrapper does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:74]
+WARNING: [Synth 8-3848] Net rotl_done in module/entity top_level_wrapper does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:77]
+WARNING: [Synth 8-3848] Net rotl_busy in module/entity top_level_wrapper does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:78]
+WARNING: [Synth 8-3848] Net p01_argc in module/entity top_level_wrapper does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:79]
+WARNING: [Synth 8-3848] Net rotr_rotr in module/entity top_level_wrapper does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:83]
+WARNING: [Synth 8-3848] Net rotl_rotl in module/entity top_level_wrapper does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'top_level_wrapper' (2#1) [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:46]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[31]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[30]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[29]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[28]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[27]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[26]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[25]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[24]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[23]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[22]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[21]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[20]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[19]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[18]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[17]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[16]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[15]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[14]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[13]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[12]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[11]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[10]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[9]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[8]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[7]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[6]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[5]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[4]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[3]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[2]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[1]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1645.746 ; gain = 92.691 ; free physical = 132 ; free virtual = 4014
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_done to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_busy to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_done to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_busy to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[31] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[30] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[29] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[28] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[27] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[26] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[25] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[24] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[23] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[22] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[21] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[20] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[19] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[18] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[17] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[16] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[15] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[14] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[13] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[12] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[11] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[10] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[9] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[8] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[7] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[6] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[5] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[4] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[3] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[2] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[1] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotr_rotr[0] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[31] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[30] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[29] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[28] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[27] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[26] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[25] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[24] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[23] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[22] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[21] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[20] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[19] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[18] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[17] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[16] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[15] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[14] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[13] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[12] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[11] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[10] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[9] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[8] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[7] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[6] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[5] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[4] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[3] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[2] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[1] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+WARNING: [Synth 8-3295] tying undriven pin main_i:rotl_rotl[0] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper.vhd:89]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 1645.746 ; gain = 92.691 ; free physical = 134 ; free virtual = 4022
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:14 . Memory (MB): peak = 1645.746 ; gain = 92.691 ; free physical = 134 ; free virtual = 4022
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/constrs_1/new/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.xdc]
+WARNING: [Vivado 12-507] No nets matched 'reset_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/constrs_1/new/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/constrs_1/new/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'start_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/constrs_1/new/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/constrs_1/new/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'results_read_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/constrs_1/new/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/constrs_1/new/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'clock_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/constrs_1/new/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/constrs_1/new/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/constrs_1/new/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/constrs_1/new/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_level_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_level_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1985.770 ; gain = 0.000 ; free physical = 108 ; free virtual = 3543
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1985.770 ; gain = 0.000 ; free physical = 124 ; free virtual = 3543
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1985.770 ; gain = 0.000 ; free physical = 124 ; free virtual = 3543
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1985.770 ; gain = 0.000 ; free physical = 124 ; free virtual = 3543
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:40 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 107 ; free virtual = 3555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 99 ; free virtual = 3553
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:41 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 107 ; free virtual = 3561
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'opt_temp_002_reg[31:0]' into 'opt_temp_001_reg[31:0]' [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:217]
+INFO: [Synth 8-4471] merging register 'opt_temp_012_reg[31:0]' into 'opt_temp_011_reg[31:0]' [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:227]
+INFO: [Synth 8-4471] merging register 'opt_temp_023_reg[31:0]' into 'opt_temp_022_reg[31:0]' [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:238]
+INFO: [Synth 8-4471] merging register 'opt_temp_032_reg[31:0]' into 'opt_temp_031_reg[31:0]' [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:247]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/ew98f/Vivado_projects_and_input/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd:293]
+INFO: [Synth 8-5545] ROM "v006_blk_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v006_blk_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[9]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[9]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[10]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[10]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[11]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[11]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[12]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[12]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[13]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[13]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[14]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[14]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[15]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[15]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[16]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[16]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[17]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[17]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[18]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[18]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[19]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[19]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[20]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[20]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[21]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[21]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[22]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[22]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[23]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[23]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[24]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[24]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[25]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[25]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[26]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[26]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[27]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[27]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[28]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[28]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[29]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[29]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[30]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[30]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[31]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[31]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[32]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[32]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[33]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[33]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[34]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[34]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[35]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[35]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[36]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[36]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[37]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[37]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[38]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[38]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[39]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[39]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[40]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[40]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[41]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "v007_l_key_reg[41]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Common 17-14] Message 'Synth 8-5545' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:30 ; elapsed = 00:00:51 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 799 ; free virtual = 4237
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 17    
++---XORs : 
+	   2 Input     32 Bit         XORs := 6     
++---Registers : 
+	               32 Bit    Registers := 104   
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	  61 Input     32 Bit        Muxes := 3     
+	   3 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      6 Bit        Muxes := 6     
+	   6 Input      5 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	  61 Input      3 Bit        Muxes := 4     
+	  61 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 113   
+	  61 Input      1 Bit        Muxes := 56    
+	   6 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module main 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 17    
++---XORs : 
+	   2 Input     32 Bit         XORs := 6     
++---Registers : 
+	               32 Bit    Registers := 104   
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	  61 Input     32 Bit        Muxes := 3     
+	   3 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 4     
+	   2 Input      6 Bit        Muxes := 6     
+	   6 Input      5 Bit        Muxes := 3     
+	   2 Input      5 Bit        Muxes := 1     
+	   6 Input      4 Bit        Muxes := 1     
+	  61 Input      3 Bit        Muxes := 4     
+	  61 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 113   
+	  61 Input      1 Bit        Muxes := 56    
+	   6 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[31]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[30]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[29]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[28]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[27]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[26]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[25]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[24]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[23]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[22]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[21]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[20]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[19]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[18]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[17]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[16]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[15]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[14]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[13]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[12]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[11]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[10]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[9]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[8]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[7]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[6]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[5]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[4]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[3]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[2]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[1]
+WARNING: [Synth 8-3331] design main has unconnected port p01_argc[0]
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[0]' (FDRE) to 'main_i/tempint001_reg[1]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[1]' (FDRE) to 'main_i/tempint001_reg[2]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[3]' (FDRE) to 'main_i/tempint001_reg[4]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[4]' (FDRE) to 'main_i/tempint001_reg[5]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[5]' (FDRE) to 'main_i/tempint001_reg[6]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[6]' (FDRE) to 'main_i/tempint001_reg[7]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[7]' (FDRE) to 'main_i/tempint001_reg[8]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[8]' (FDRE) to 'main_i/tempint001_reg[9]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[9]' (FDRE) to 'main_i/tempint001_reg[10]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[10]' (FDRE) to 'main_i/tempint001_reg[11]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[11]' (FDRE) to 'main_i/tempint001_reg[12]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[12]' (FDRE) to 'main_i/tempint001_reg[13]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[13]' (FDRE) to 'main_i/tempint001_reg[14]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[14]' (FDRE) to 'main_i/tempint001_reg[15]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[15]' (FDRE) to 'main_i/tempint001_reg[16]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[16]' (FDRE) to 'main_i/tempint001_reg[17]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[17]' (FDRE) to 'main_i/tempint001_reg[18]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[18]' (FDRE) to 'main_i/tempint001_reg[19]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[19]' (FDRE) to 'main_i/tempint001_reg[20]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[20]' (FDRE) to 'main_i/tempint001_reg[21]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[21]' (FDRE) to 'main_i/tempint001_reg[22]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[22]' (FDRE) to 'main_i/tempint001_reg[23]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[23]' (FDRE) to 'main_i/tempint001_reg[24]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[24]' (FDRE) to 'main_i/tempint001_reg[25]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[25]' (FDRE) to 'main_i/tempint001_reg[26]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[26]' (FDRE) to 'main_i/tempint001_reg[27]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[27]' (FDRE) to 'main_i/tempint001_reg[28]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[28]' (FDRE) to 'main_i/tempint001_reg[29]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[29]' (FDRE) to 'main_i/tempint001_reg[30]'
+INFO: [Synth 8-3886] merging instance 'main_i/tempint001_reg[30]' (FDRE) to 'main_i/tempint001_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (main_i/\tempint001_reg[31] )
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[2]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[3]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[4]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[5]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[6]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[7]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[8]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[9]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[10]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[11]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[12]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[13]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[14]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[15]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[16]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[17]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[18]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[19]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[20]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[21]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[22]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[23]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[24]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[25]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[26]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[27]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[28]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[29]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3886] merging instance 'main_i/opt_temp_021_reg[30]' (FDRE) to 'main_i/opt_temp_021_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (main_i/\opt_temp_021_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (main_i/rotr_results_read_int_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (main_i/rotl_results_read_int_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (main_i/our_main_reg)
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:01:03 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 721 ; free virtual = 4231
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:49 ; elapsed = 00:01:14 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 521 ; free virtual = 4116
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:01:17 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 469 ; free virtual = 4074
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:52 ; elapsed = 00:01:17 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 453 ; free virtual = 4064
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:53 ; elapsed = 00:01:19 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 399 ; free virtual = 4035
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:53 ; elapsed = 00:01:19 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 399 ; free virtual = 4035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:53 ; elapsed = 00:01:19 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 398 ; free virtual = 4035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:53 ; elapsed = 00:01:19 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 398 ; free virtual = 4035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:53 ; elapsed = 00:01:19 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 393 ; free virtual = 4030
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:53 ; elapsed = 00:01:19 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 393 ; free virtual = 4030
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    60|
+|3     |LUT1   |    35|
+|4     |LUT2   |    89|
+|5     |LUT3   |    42|
+|6     |LUT4   |    71|
+|7     |LUT5   |    12|
+|8     |LUT6   |    99|
+|9     |MUXF7  |     1|
+|10    |FDRE   |   173|
+|11    |FDSE   |     5|
+|12    |IBUF   |     4|
+|13    |OBUF   |     3|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   595|
+|2     |  main_i |main   |   587|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:53 ; elapsed = 00:01:19 . Memory (MB): peak = 1985.770 ; gain = 432.715 ; free physical = 393 ; free virtual = 4030
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 32 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:00:59 . Memory (MB): peak = 1985.770 ; gain = 92.691 ; free physical = 418 ; free virtual = 4069
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:01:19 . Memory (MB): peak = 1985.777 ; gain = 432.715 ; free physical = 418 ; free virtual = 4070
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1985.777 ; gain = 0.000 ; free physical = 285 ; free virtual = 3991
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+187 Infos, 150 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:57 ; elapsed = 00:01:25 . Memory (MB): peak = 1985.777 ; gain = 432.781 ; free physical = 315 ; free virtual = 4029
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1985.777 ; gain = 0.000 ; free physical = 312 ; free virtual = 4032
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard/v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.runs/synth_1/top_level_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_level_wrapper_utilization_synth.rpt -pb top_level_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 22 17:59:27 2023...

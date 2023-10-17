@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_source_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="sim_source_testbench" />
+            <top_module name="tf_decr_part_ofuil_ocbe3_ocie3" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="689188500000fs"></ZoomStartTime>
+      <ZoomEndTime time="696398500001fs"></ZoomEndTime>
+      <Cursor1Time time="692650000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="49" />
+   <wvobject fp_name="/sim_source_testbench/results_read" type="logic">
+      <obj_property name="ElementShortName">results_read</obj_property>
+      <obj_property name="ObjectShortName">results_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_results_read" type="logic">
+      <obj_property name="ElementShortName">rotr_results_read</obj_property>
+      <obj_property name="ObjectShortName">rotr_results_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_start" type="logic">
+      <obj_property name="ElementShortName">rotr_start</obj_property>
+      <obj_property name="ObjectShortName">rotr_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_done" type="logic">
+      <obj_property name="ElementShortName">rotr_done</obj_property>
+      <obj_property name="ObjectShortName">rotr_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_busy" type="logic">
+      <obj_property name="ElementShortName">rotr_busy</obj_property>
+      <obj_property name="ObjectShortName">rotr_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_results_read" type="logic">
+      <obj_property name="ElementShortName">rotl_results_read</obj_property>
+      <obj_property name="ObjectShortName">rotl_results_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_start" type="logic">
+      <obj_property name="ElementShortName">rotl_start</obj_property>
+      <obj_property name="ObjectShortName">rotl_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_done" type="logic">
+      <obj_property name="ElementShortName">rotl_done</obj_property>
+      <obj_property name="ObjectShortName">rotl_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_busy" type="logic">
+      <obj_property name="ElementShortName">rotl_busy</obj_property>
+      <obj_property name="ObjectShortName">rotl_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/p01_argc" type="array">
+      <obj_property name="ElementShortName">p01_argc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p01_argc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/main_s" type="array">
+      <obj_property name="ElementShortName">main_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">main_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_p01_x" type="array">
+      <obj_property name="ElementShortName">rotr_p01_x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotr_p01_x[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_p02_n" type="array">
+      <obj_property name="ElementShortName">rotr_p02_n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotr_p02_n[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_rotr" type="array">
+      <obj_property name="ElementShortName">rotr_rotr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotr_rotr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_p01_x" type="array">
+      <obj_property name="ElementShortName">rotl_p01_x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotl_p01_x[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_p02_n" type="array">
+      <obj_property name="ElementShortName">rotl_p02_n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotl_p02_n[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_rotl" type="array">
+      <obj_property name="ElementShortName">rotl_rotl[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotl_rotl[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_pow_results_read" type="logic">
+      <obj_property name="ElementShortName">rotl_pow_results_read</obj_property>
+      <obj_property name="ObjectShortName">rotl_pow_results_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_pow_start" type="logic">
+      <obj_property name="ElementShortName">rotl_pow_start</obj_property>
+      <obj_property name="ObjectShortName">rotl_pow_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_pow_done" type="logic">
+      <obj_property name="ElementShortName">rotl_pow_done</obj_property>
+      <obj_property name="ObjectShortName">rotl_pow_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_pow_busy" type="logic">
+      <obj_property name="ElementShortName">rotl_pow_busy</obj_property>
+      <obj_property name="ObjectShortName">rotl_pow_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_pow_results_read" type="logic">
+      <obj_property name="ElementShortName">rotr_pow_results_read</obj_property>
+      <obj_property name="ObjectShortName">rotr_pow_results_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_pow_start" type="logic">
+      <obj_property name="ElementShortName">rotr_pow_start</obj_property>
+      <obj_property name="ObjectShortName">rotr_pow_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_pow_done" type="logic">
+      <obj_property name="ElementShortName">rotr_pow_done</obj_property>
+      <obj_property name="ObjectShortName">rotr_pow_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_pow_busy" type="logic">
+      <obj_property name="ElementShortName">rotr_pow_busy</obj_property>
+      <obj_property name="ObjectShortName">rotr_pow_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/p01_x" type="array">
+      <obj_property name="ElementShortName">p01_x[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p01_x[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/p02_n" type="array">
+      <obj_property name="ElementShortName">p02_n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p02_n[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_s" type="array">
+      <obj_property name="ElementShortName">rotl_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotl_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_pow_p01_base" type="array">
+      <obj_property name="ElementShortName">rotl_pow_p01_base[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotl_pow_p01_base[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_pow_p02_exp" type="array">
+      <obj_property name="ElementShortName">rotl_pow_p02_exp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotl_pow_p02_exp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_pow_pow" type="array">
+      <obj_property name="ElementShortName">rotl_pow_pow[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotl_pow_pow[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_p01_base" type="array">
+      <obj_property name="ElementShortName">rotl_p01_base[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotl_p01_base[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_p02_exp" type="array">
+      <obj_property name="ElementShortName">rotl_p02_exp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotl_p02_exp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotl_pow_s" type="array">
+      <obj_property name="ElementShortName">rotl_pow_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotl_pow_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_pow_p01_base" type="array">
+      <obj_property name="ElementShortName">rotr_pow_p01_base[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotr_pow_p01_base[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_pow_p02_exp" type="array">
+      <obj_property name="ElementShortName">rotr_pow_p02_exp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotr_pow_p02_exp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_pow_pow" type="array">
+      <obj_property name="ElementShortName">rotr_pow_pow[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotr_pow_pow[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_p01_base" type="array">
+      <obj_property name="ElementShortName">rotr_p01_base[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotr_p01_base[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_p02_exp" type="array">
+      <obj_property name="ElementShortName">rotr_p02_exp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotr_p02_exp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_pow_s" type="array">
+      <obj_property name="ElementShortName">rotr_pow_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotr_pow_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/rotr_s" type="array">
+      <obj_property name="ElementShortName">rotr_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rotr_s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/i" type="other">
+      <obj_property name="ElementShortName">i</obj_property>
+      <obj_property name="ObjectShortName">i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/T" type="other">
+      <obj_property name="ElementShortName">T</obj_property>
+      <obj_property name="ObjectShortName">T</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_source_testbench/num_of_clocks" type="other">
+      <obj_property name="ElementShortName">num_of_clocks</obj_property>
+      <obj_property name="ObjectShortName">num_of_clocks</obj_property>
+   </wvobject>
+</wave_config>

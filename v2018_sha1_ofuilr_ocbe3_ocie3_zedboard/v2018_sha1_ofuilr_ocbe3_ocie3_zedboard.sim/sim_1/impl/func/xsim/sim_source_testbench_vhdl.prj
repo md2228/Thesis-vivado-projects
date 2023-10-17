@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"sim_source_testbench_func_impl.vhd" \
+"../../../../../../Documents/input_for_vivado/2023-01-27-17-34-38_sha1_ofuilr_ocbe3_ocie3/local_memcpy_parcs.vhd" \
+"../../../../../v2018_sha1_ofuilr_ocbe3_ocie3_zedboard.srcs/sim_1/new/sim_source_testbench.vhd" \
+
+# Do not sort compile order
+nosort

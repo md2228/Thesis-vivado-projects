@@ -1,0 +1,72 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Feb 22 17:01:43 2023
+| Host         : fedora running 64-bit Fedora release 34 (Thirty Four)
+| Command      : report_control_sets -verbose -file top_level_wrapper_sha1_control_sets_placed.rpt
+| Design       : top_level_wrapper_sha1
+| Device       : xc7z020
+---------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     5 |
+| Unused register locations in slices containing registers |    16 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      2 |            1 |
+|      5 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               2 |            2 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              70 |           19 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+-----------------------------------+---------------------------------+------------------+----------------+
+|   Clock Signal   |           Enable Signal           |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++------------------+-----------------------------------+---------------------------------+------------------+----------------+
+|  clock_IBUF_BUFG | local_memcpy_i/busy_i_1_n_0       | local_memcpy_i/state[4]_i_1_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG |                                   |                                 |                2 |              2 |
+|  clock_IBUF_BUFG | local_memcpy_i/state[4]_i_2_n_0   | local_memcpy_i/state[4]_i_1_n_0 |                2 |              5 |
+|  clock_IBUF_BUFG | local_memcpy_i/p_0_out            | local_memcpy_i/state[4]_i_1_n_0 |               10 |             32 |
+|  clock_IBUF_BUFG | local_memcpy_i/v008_m[31]_i_1_n_0 | local_memcpy_i/state[4]_i_1_n_0 |                6 |             32 |
++------------------+-----------------------------------+---------------------------------+------------------+----------------+
+
+

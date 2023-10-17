@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4097274699129882766  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 3d7f047a4627469d9284bbf0d981929f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot sim_source_testbench_func_impl xil_defaultlib.sim_source_testbench" , 
+    buildDate : "Dec  6 2018" , 
+    buildTime : "23:39:36" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/sim_source_testbench_func_impl/xsimk\"   \"xsim.dir/sim_source_testbench_func_impl/obj/xsim_0.lnx64.o\" \"xsim.dir/sim_source_testbench_func_impl/obj/xsim_1.lnx64.o\" -L\"/home/ew98f/tools/Xilinx/Vivado/2018.3/lib/lnx64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

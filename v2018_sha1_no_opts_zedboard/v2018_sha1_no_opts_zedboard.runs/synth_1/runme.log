@@ -1,0 +1,636 @@
+
+*** Running vivado
+    with args -log top_level_wrapper_sha1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_level_wrapper_sha1.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top_level_wrapper_sha1.tcl -notrace
+Command: synth_design -top top_level_wrapper_sha1 -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6181 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1564.043 ; gain = 52.941 ; free physical = 408 ; free virtual = 4733
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_level_wrapper_sha1' [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:47]
+INFO: [Synth 8-3491] module 'local_memcpy' declared at '/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2023-01-27-17-33-07_sha1_no_opts/local_memcpy_parcs.vhd:96' bound to instance 'local_memcpy_i' of component 'local_memcpy' [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'local_memcpy' [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2023-01-27-17-33-07_sha1_no_opts/local_memcpy_parcs.vhd:108]
+WARNING: [Synth 8-6014] Unused sequential element var2_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2023-01-27-17-33-07_sha1_no_opts/local_memcpy_parcs.vhd:204]
+WARNING: [Synth 8-6014] Unused sequential element var3_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2023-01-27-17-33-07_sha1_no_opts/local_memcpy_parcs.vhd:205]
+WARNING: [Synth 8-6014] Unused sequential element var8_reg was removed.  [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2023-01-27-17-33-07_sha1_no_opts/local_memcpy_parcs.vhd:210]
+INFO: [Synth 8-256] done synthesizing module 'local_memcpy' (1#1) [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2023-01-27-17-33-07_sha1_no_opts/local_memcpy_parcs.vhd:108]
+WARNING: [Synth 8-3848] Net p02_s2[0] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[1] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[2] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[3] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[4] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[5] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[6] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[7] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[8] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[9] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[10] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[11] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[12] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[13] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[14] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[15] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[16] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[17] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[18] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[19] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[20] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[21] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[22] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[23] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[24] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[25] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[26] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[27] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[28] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[29] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[30] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[31] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[32] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[33] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[34] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[35] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[36] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[37] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[38] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[39] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[40] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[41] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[42] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[43] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[44] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[45] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[46] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[47] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[48] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[49] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[50] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[51] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[52] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[53] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[54] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[55] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[56] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[57] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[58] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[59] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[60] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[61] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[62] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[63] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[64] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[65] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[66] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[67] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[68] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[69] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[70] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[71] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[72] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[73] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[74] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[75] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[76] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[77] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[78] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[79] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[80] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[81] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[82] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[83] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[84] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[85] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[86] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[87] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[88] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[89] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[90] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[91] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[92] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[93] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[94] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[95] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[96] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[97] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[98] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+WARNING: [Synth 8-3848] Net p02_s2[99] in module/entity top_level_wrapper_sha1 does not have driver. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:59]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'top_level_wrapper_sha1' (2#1) [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:47]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 1897.723 ; gain = 386.621 ; free physical = 125 ; free virtual = 4014
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][31] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][30] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][29] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][28] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][27] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][26] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][25] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][24] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][23] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][22] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][21] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][20] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][19] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][18] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][17] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][16] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][15] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][14] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][13] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][12] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][11] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][10] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][9] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][8] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][7] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][6] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][5] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][4] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][3] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][2] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][1] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[0][0] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][31] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][30] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][29] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][28] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][27] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][26] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][25] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][24] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][23] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][22] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][21] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][20] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][19] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][18] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][17] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][16] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][15] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][14] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][13] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][12] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][11] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][10] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][9] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][8] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][7] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][6] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][5] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][4] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][3] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][2] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][1] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[1][0] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][31] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][30] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][29] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][28] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][27] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][26] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][25] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][24] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][23] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][22] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][21] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][20] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][19] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][18] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][17] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][16] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][15] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][14] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][13] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][12] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][11] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][10] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][9] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][8] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][7] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][6] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][5] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][4] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][3] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][2] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][1] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[2][0] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[3][31] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[3][30] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[3][29] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+WARNING: [Synth 8-3295] tying undriven pin local_memcpy_i:p02_s2[3][28] to constant 0 [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd:64]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:01:03 . Memory (MB): peak = 1897.723 ; gain = 386.621 ; free physical = 680 ; free virtual = 4562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:54 ; elapsed = 00:01:03 . Memory (MB): peak = 1897.723 ; gain = 386.621 ; free physical = 680 ; free virtual = 4562
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/constrs_1/new/v2018_sha1_no_opts_zedboard.xdc]
+WARNING: [Vivado 12-507] No nets matched 'reset_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/constrs_1/new/v2018_sha1_no_opts_zedboard.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/constrs_1/new/v2018_sha1_no_opts_zedboard.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'start_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/constrs_1/new/v2018_sha1_no_opts_zedboard.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/constrs_1/new/v2018_sha1_no_opts_zedboard.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'results_read_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/constrs_1/new/v2018_sha1_no_opts_zedboard.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/constrs_1/new/v2018_sha1_no_opts_zedboard.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-507] No nets matched 'clock_IBUF'. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/constrs_1/new/v2018_sha1_no_opts_zedboard.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/constrs_1/new/v2018_sha1_no_opts_zedboard.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/constrs_1/new/v2018_sha1_no_opts_zedboard.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.srcs/constrs_1/new/v2018_sha1_no_opts_zedboard.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_level_wrapper_sha1_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_level_wrapper_sha1_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2607.059 ; gain = 0.000 ; free physical = 389 ; free virtual = 3691
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2607.059 ; gain = 0.000 ; free physical = 371 ; free virtual = 3685
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2607.059 ; gain = 0.000 ; free physical = 371 ; free virtual = 3685
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2607.059 ; gain = 0.000 ; free physical = 371 ; free virtual = 3685
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:02:29 ; elapsed = 00:03:11 . Memory (MB): peak = 2607.059 ; gain = 1095.957 ; free physical = 608 ; free virtual = 4119
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:29 ; elapsed = 00:03:11 . Memory (MB): peak = 2607.059 ; gain = 1095.957 ; free physical = 607 ; free virtual = 4118
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:29 ; elapsed = 00:03:11 . Memory (MB): peak = 2607.059 ; gain = 1095.957 ; free physical = 605 ; free virtual = 4121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/ew98f/Vivado_projects_and_input/Vivado_projects/Documents/input_for_vivado/2023-01-27-17-33-07_sha1_no_opts/local_memcpy_parcs.vhd:215]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:57 ; elapsed = 00:04:46 . Memory (MB): peak = 2607.059 ; gain = 1095.957 ; free physical = 220 ; free virtual = 3681
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |local_memcpy__GB0 |           1|   1051027|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 19    
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	  25 Input     32 Bit        Muxes := 4     
+	   2 Input     31 Bit        Muxes := 1     
+	  25 Input     16 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  25 Input      1 Bit        Muxes := 26    
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module local_memcpy 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     31 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 19    
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 14    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	  25 Input     32 Bit        Muxes := 4     
+	   2 Input     31 Bit        Muxes := 1     
+	  25 Input     16 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  25 Input      1 Bit        Muxes := 26    
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0008_reg[2]' (FDRE) to 'i_0/temporary0008_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0008_reg[3]' (FDRE) to 'i_0/temporary0008_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0008_reg[0]' (FDRE) to 'i_0/temporary0008_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0008_reg[1]' (FDRE) to 'i_0/temporary0008_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0008_reg[6]' (FDRE) to 'i_0/temporary0008_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0008_reg[7]' (FDRE) to 'i_0/temporary0008_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0008_reg[4]' (FDRE) to 'i_0/temporary0008_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\temporary0008_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/temporary0001_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/temporary0005_reg)
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[14]' (FDRE) to 'i_0/temporary0010_reg[8]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[14]' (FDRE) to 'i_0/temporary0013_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[15]' (FDRE) to 'i_0/temporary0010_reg[8]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[15]' (FDRE) to 'i_0/temporary0013_reg[13]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[12]' (FDRE) to 'i_0/temporary0010_reg[8]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[12]' (FDRE) to 'i_0/temporary0013_reg[13]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[13]' (FDRE) to 'i_0/temporary0010_reg[8]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[13]' (FDRE) to 'i_0/temporary0013_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[8]' (FDRE) to 'i_0/temporary0010_reg[9]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[8]' (FDRE) to 'i_0/temporary0013_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[9]' (FDRE) to 'i_0/temporary0010_reg[10]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[9]' (FDRE) to 'i_0/temporary0013_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[10]' (FDRE) to 'i_0/temporary0010_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[10]' (FDRE) to 'i_0/temporary0013_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[11]' (FDRE) to 'i_0/temporary0010_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[11]' (FDRE) to 'i_0/temporary0013_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[2]' (FDRE) to 'i_0/temporary0010_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[2]' (FDRE) to 'i_0/temporary0013_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[3]' (FDRE) to 'i_0/temporary0010_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[3]' (FDRE) to 'i_0/temporary0013_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[0]' (FDRE) to 'i_0/temporary0010_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[0]' (FDRE) to 'i_0/temporary0013_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[1]' (FDRE) to 'i_0/temporary0010_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[1]' (FDRE) to 'i_0/temporary0013_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[6]' (FDRE) to 'i_0/temporary0010_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[6]' (FDRE) to 'i_0/temporary0013_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[7]' (FDRE) to 'i_0/temporary0010_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[7]' (FDRE) to 'i_0/temporary0013_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[4]' (FDRE) to 'i_0/temporary0010_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0013_reg[4]' (FDRE) to 'i_0/temporary0013_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\temporary0013_reg[5] )
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[31]' (FDRE) to 'i_0/temporary0010_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[30]' (FDRE) to 'i_0/temporary0010_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[28]' (FDRE) to 'i_0/temporary0010_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[29]' (FDRE) to 'i_0/temporary0010_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[24]' (FDRE) to 'i_0/temporary0010_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[25]' (FDRE) to 'i_0/temporary0010_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[26]' (FDRE) to 'i_0/temporary0010_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[27]' (FDRE) to 'i_0/temporary0010_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[18]' (FDRE) to 'i_0/temporary0010_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[19]' (FDRE) to 'i_0/temporary0010_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[16]' (FDRE) to 'i_0/temporary0010_reg[17]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[17]' (FDRE) to 'i_0/temporary0010_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[22]' (FDRE) to 'i_0/temporary0010_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[23]' (FDRE) to 'i_0/temporary0010_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0010_reg[20]' (FDRE) to 'i_0/temporary0010_reg[21]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\temporary0010_reg[21] )
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[14]' (FDRE) to 'i_0/temporary0016_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[14]' (FDRE) to 'i_0/temporary0019_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[15]' (FDRE) to 'i_0/temporary0016_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[15]' (FDRE) to 'i_0/temporary0019_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[12]' (FDRE) to 'i_0/temporary0016_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[12]' (FDRE) to 'i_0/temporary0019_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[13]' (FDRE) to 'i_0/temporary0016_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[13]' (FDRE) to 'i_0/temporary0019_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[8]' (FDRE) to 'i_0/temporary0016_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[8]' (FDRE) to 'i_0/temporary0019_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[9]' (FDRE) to 'i_0/temporary0016_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[9]' (FDRE) to 'i_0/temporary0019_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[10]' (FDRE) to 'i_0/temporary0016_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[10]' (FDRE) to 'i_0/temporary0019_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[11]' (FDRE) to 'i_0/temporary0016_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[11]' (FDRE) to 'i_0/temporary0019_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[2]' (FDRE) to 'i_0/temporary0016_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[2]' (FDRE) to 'i_0/temporary0019_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[3]' (FDRE) to 'i_0/temporary0016_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[3]' (FDRE) to 'i_0/temporary0019_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[0]' (FDRE) to 'i_0/temporary0016_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[0]' (FDRE) to 'i_0/temporary0019_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[1]' (FDRE) to 'i_0/temporary0016_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[1]' (FDRE) to 'i_0/temporary0019_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[6]' (FDRE) to 'i_0/temporary0016_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[6]' (FDRE) to 'i_0/temporary0019_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[7]' (FDRE) to 'i_0/temporary0016_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[7]' (FDRE) to 'i_0/temporary0019_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[4]' (FDRE) to 'i_0/temporary0016_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[4]' (FDRE) to 'i_0/temporary0019_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[5]' (FDRE) to 'i_0/temporary0019_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[31]' (FDRE) to 'i_0/temporary0016_reg[30]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[30]' (FDRE) to 'i_0/temporary0016_reg[29]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[28]' (FDRE) to 'i_0/temporary0016_reg[29]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[29]' (FDRE) to 'i_0/temporary0016_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[24]' (FDRE) to 'i_0/temporary0016_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[25]' (FDRE) to 'i_0/temporary0016_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[26]' (FDRE) to 'i_0/temporary0016_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[27]' (FDRE) to 'i_0/temporary0016_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[18]' (FDRE) to 'i_0/temporary0016_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[18]' (FDRE) to 'i_0/temporary0019_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[19]' (FDRE) to 'i_0/temporary0016_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[19]' (FDRE) to 'i_0/temporary0019_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[16]' (FDRE) to 'i_0/temporary0016_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[16]' (FDRE) to 'i_0/temporary0019_reg[17]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[17]' (FDRE) to 'i_0/temporary0016_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0019_reg[17]' (FDRE) to 'i_0/temporary0019_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/temporary0016_reg[22]' (FDRE) to 'i_0/temporary0016_reg[23]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\temporary0016_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\temporary0019_reg[21] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:06:29 ; elapsed = 00:07:29 . Memory (MB): peak = 2744.660 ; gain = 1233.559 ; free physical = 1279 ; free virtual = 4124
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |local_memcpy__GB0 |           1|       255|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:06:40 ; elapsed = 00:07:42 . Memory (MB): peak = 2744.660 ; gain = 1233.559 ; free physical = 1038 ; free virtual = 4014
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:06:44 ; elapsed = 00:07:47 . Memory (MB): peak = 2744.660 ; gain = 1233.559 ; free physical = 762 ; free virtual = 3902
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------+------------+----------+
+|      |RTL Partition     |Replication |Instances |
++------+------------------+------------+----------+
+|1     |local_memcpy__GB0 |           1|       255|
++------+------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:06:44 ; elapsed = 00:07:48 . Memory (MB): peak = 2744.660 ; gain = 1233.559 ; free physical = 815 ; free virtual = 3969
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:06:46 ; elapsed = 00:07:49 . Memory (MB): peak = 2744.660 ; gain = 1233.559 ; free physical = 758 ; free virtual = 3970
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:06:46 ; elapsed = 00:07:49 . Memory (MB): peak = 2744.660 ; gain = 1233.559 ; free physical = 758 ; free virtual = 3970
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:06:46 ; elapsed = 00:07:50 . Memory (MB): peak = 2744.660 ; gain = 1233.559 ; free physical = 743 ; free virtual = 3971
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:06:46 ; elapsed = 00:07:50 . Memory (MB): peak = 2744.660 ; gain = 1233.559 ; free physical = 743 ; free virtual = 3971
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:06:46 ; elapsed = 00:07:50 . Memory (MB): peak = 2744.660 ; gain = 1233.559 ; free physical = 743 ; free virtual = 3971
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:06:46 ; elapsed = 00:07:50 . Memory (MB): peak = 2744.660 ; gain = 1233.559 ; free physical = 743 ; free virtual = 3971
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    12|
+|3     |LUT1   |    32|
+|4     |LUT2   |    66|
+|5     |LUT4   |     2|
+|6     |LUT5   |     7|
+|7     |LUT6   |     6|
+|8     |FDRE   |    68|
+|9     |FDSE   |     4|
+|10    |IBUF   |     4|
+|11    |OBUF   |     2|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------------+-------------+------+
+|      |Instance         |Module       |Cells |
++------+-----------------+-------------+------+
+|1     |top              |             |   204|
+|2     |  local_memcpy_i |local_memcpy |   197|
++------+-----------------+-------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:06:46 ; elapsed = 00:07:50 . Memory (MB): peak = 2744.660 ; gain = 1233.559 ; free physical = 743 ; free virtual = 3972
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:05:21 ; elapsed = 00:05:59 . Memory (MB): peak = 2744.660 ; gain = 524.223 ; free physical = 740 ; free virtual = 3991
+Synthesis Optimization Complete : Time (s): cpu = 00:06:46 ; elapsed = 00:07:50 . Memory (MB): peak = 2744.668 ; gain = 1233.559 ; free physical = 727 ; free virtual = 4006
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2744.668 ; gain = 0.000 ; free physical = 375 ; free virtual = 3854
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+128 Infos, 207 Warnings, 4 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:06:49 ; elapsed = 00:07:59 . Memory (MB): peak = 2744.668 ; gain = 1233.625 ; free physical = 391 ; free virtual = 3900
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2744.668 ; gain = 0.000 ; free physical = 391 ; free virtual = 3900
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/ew98f/Vivado_projects_and_input/Vivado_projects/v2018_sha1_no_opts_zedboard/v2018_sha1_no_opts_zedboard.runs/synth_1/top_level_wrapper_sha1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_level_wrapper_sha1_utilization_synth.rpt -pb top_level_wrapper_sha1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 22 16:59:12 2023...

@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="main_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="main" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="396000630000fs"></ZoomStartTime>
+      <ZoomEndTime time="432050630001fs"></ZoomEndTime>
+      <Cursor1Time time="430350100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="146"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="368" />
+   <wvobject fp_name="/main/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/results_read" type="logic">
+      <obj_property name="ElementShortName">results_read</obj_property>
+      <obj_property name="ObjectShortName">results_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/p01_argc" type="array">
+      <obj_property name="ElementShortName">p01_argc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p01_argc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/main" type="array">
+      <obj_property name="ElementShortName">main[31:0]</obj_property>
+      <obj_property name="ObjectShortName">main[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[0]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[0]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[0]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[11]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[11]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[11]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[12]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[12]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[12]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[13]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[13]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[13]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[14]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[14]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[14]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[15]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[15]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[15]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[16]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[16]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[16]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[17]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[17]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[17]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[18]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[18]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[18]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[18]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[18]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[18]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[18]_i_3_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[18]_i_3_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[18]_i_3_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[18]_i_4_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[18]_i_4_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[18]_i_4_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[18]_i_5_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[18]_i_5_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[18]_i_5_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[18]_i_6_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[18]_i_6_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[18]_i_6_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[18]_i_7_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[18]_i_7_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[18]_i_7_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[1]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[1]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[1]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[2]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[2]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[2]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[4]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[4]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[4]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[6]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[6]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[6]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state[7]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state[7]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state[7]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[0]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[0]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[0]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[10]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[10]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[10]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[11]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[11]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[11]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[12]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[12]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[12]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[13]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[13]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[13]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[14]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[14]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[14]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[15]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[15]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[15]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[16]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[16]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[16]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[17]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[17]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[17]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[18]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[18]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[18]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[5]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[5]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[5]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[6]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[6]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[6]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\FSM_onehot_state_reg_n_0_[9]\" type="logic">
+      <obj_property name="ElementShortName">\FSM_onehot_state_reg_n_0_[9]\</obj_property>
+      <obj_property name="ObjectShortName">\FSM_onehot_state_reg_n_0_[9]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/busy_OBUF" type="logic">
+      <obj_property name="ElementShortName">busy_OBUF</obj_property>
+      <obj_property name="ObjectShortName">busy_OBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/busy_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">busy_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">busy_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/busy_i_2_n_0" type="logic">
+      <obj_property name="ElementShortName">busy_i_2_n_0</obj_property>
+      <obj_property name="ObjectShortName">busy_i_2_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/clock_IBUF" type="logic">
+      <obj_property name="ElementShortName">clock_IBUF</obj_property>
+      <obj_property name="ObjectShortName">clock_IBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/clock_IBUF_BUFG" type="logic">
+      <obj_property name="ElementShortName">clock_IBUF_BUFG</obj_property>
+      <obj_property name="ObjectShortName">clock_IBUF_BUFG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/done_OBUF" type="logic">
+      <obj_property name="ElementShortName">done_OBUF</obj_property>
+      <obj_property name="ObjectShortName">done_OBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/done_int" type="logic">
+      <obj_property name="ElementShortName">done_int</obj_property>
+      <obj_property name="ObjectShortName">done_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/done_int_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">done_int_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">done_int_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/eqOp" type="logic">
+      <obj_property name="ElementShortName">eqOp</obj_property>
+      <obj_property name="ObjectShortName">eqOp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/gtOp" type="logic">
+      <obj_property name="ElementShortName">gtOp</obj_property>
+      <obj_property name="ObjectShortName">gtOp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/in19" type="array">
+      <obj_property name="ElementShortName">in19[31:1]</obj_property>
+      <obj_property name="ObjectShortName">in19[31:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/in20" type="array">
+      <obj_property name="ElementShortName">in20[31:1]</obj_property>
+      <obj_property name="ObjectShortName">in20[31:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/index000" type="array">
+      <obj_property name="ElementShortName">index000[31:0]</obj_property>
+      <obj_property name="ObjectShortName">index000[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[0]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[0]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[0]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[10]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[10]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[10]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[11]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[11]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[11]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[12]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[12]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[12]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[13]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[13]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[13]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[14]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[14]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[14]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[15]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[15]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[15]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[16]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[16]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[16]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[17]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[17]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[17]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[18]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[18]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[18]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[19]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[19]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[19]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[1]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[1]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[1]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[20]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[20]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[20]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[21]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[21]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[21]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[22]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[22]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[22]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[23]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[23]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[23]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[24]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[24]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[24]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[25]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[25]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[25]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[26]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[26]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[26]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[27]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[27]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[27]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[28]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[28]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[28]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[29]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[29]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[29]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[2]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[2]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[2]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[30]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[30]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[30]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[31]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[31]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[31]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[3]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[3]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[3]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[4]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[4]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[4]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[5]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[5]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[5]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[6]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[6]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[6]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[7]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[7]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[7]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[8]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[8]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[8]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000[9]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000[9]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000[9]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[12]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[12]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[12]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[12]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[12]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[12]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[12]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[12]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[12]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[12]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[12]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[12]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[16]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[16]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[16]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[16]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[16]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[16]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[16]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[16]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[16]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[16]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[16]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[16]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[20]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[20]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[20]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[20]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[20]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[20]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[20]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[20]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[20]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[20]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[20]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[20]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[24]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[24]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[24]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[24]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[24]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[24]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[24]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[24]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[24]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[24]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[24]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[24]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[28]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[28]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[28]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[28]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[28]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[28]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[28]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[28]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[28]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[28]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[28]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[28]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[31]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[31]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[31]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[31]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[31]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[31]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[4]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[4]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[4]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[4]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[4]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[4]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[4]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[4]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[4]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[4]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[4]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[4]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[8]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[8]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[8]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[8]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[8]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[8]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[8]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[8]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[8]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index000_reg[8]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index000_reg[8]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index000_reg[8]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/index001" type="array">
+      <obj_property name="ElementShortName">index001[31:0]</obj_property>
+      <obj_property name="ObjectShortName">index001[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[0]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[0]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[0]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[10]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[10]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[10]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[11]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[11]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[11]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[12]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[12]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[12]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[13]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[13]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[13]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[14]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[14]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[14]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[15]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[15]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[15]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[16]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[16]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[16]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[17]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[17]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[17]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[18]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[18]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[18]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[19]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[19]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[19]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[1]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[1]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[1]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[20]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[20]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[20]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[21]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[21]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[21]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[22]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[22]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[22]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[23]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[23]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[23]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[24]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[24]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[24]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[25]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[25]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[25]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[26]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[26]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[26]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[27]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[27]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[27]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[28]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[28]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[28]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[29]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[29]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[29]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[2]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[2]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[2]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[30]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[30]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[30]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[31]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[31]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[31]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[3]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[3]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[3]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[4]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[4]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[4]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[5]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[5]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[5]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[6]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[6]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[6]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[7]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[7]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[7]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[8]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[8]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[8]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001[9]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001[9]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001[9]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[12]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[12]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[12]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[12]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[12]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[12]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[12]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[12]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[12]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[12]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[12]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[12]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[16]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[16]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[16]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[16]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[16]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[16]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[16]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[16]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[16]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[16]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[16]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[16]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[20]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[20]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[20]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[20]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[20]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[20]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[20]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[20]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[20]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[20]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[20]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[20]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[24]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[24]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[24]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[24]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[24]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[24]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[24]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[24]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[24]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[24]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[24]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[24]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[28]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[28]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[28]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[28]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[28]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[28]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[28]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[28]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[28]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[28]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[28]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[28]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[31]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[31]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[31]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[31]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[31]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[31]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[4]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[4]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[4]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[4]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[4]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[4]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[4]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[4]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[4]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[4]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[4]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[4]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[8]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[8]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[8]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[8]_i_2_n_1\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[8]_i_2_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[8]_i_2_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[8]_i_2_n_2\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[8]_i_2_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[8]_i_2_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\index001_reg[8]_i_2_n_3\" type="logic">
+      <obj_property name="ElementShortName">\index001_reg[8]_i_2_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\index001_reg[8]_i_2_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/leqOp" type="logic">
+      <obj_property name="ElementShortName">leqOp</obj_property>
+      <obj_property name="ObjectShortName">leqOp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/minusOp" type="array">
+      <obj_property name="ElementShortName">minusOp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">minusOp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/reset_IBUF" type="logic">
+      <obj_property name="ElementShortName">reset_IBUF</obj_property>
+      <obj_property name="ObjectShortName">reset_IBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/results_read_IBUF" type="logic">
+      <obj_property name="ElementShortName">results_read_IBUF</obj_property>
+      <obj_property name="ObjectShortName">results_read_IBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/start_IBUF" type="logic">
+      <obj_property name="ElementShortName">start_IBUF</obj_property>
+      <obj_property name="ObjectShortName">start_IBUF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/tempint000" type="array">
+      <obj_property name="ElementShortName">tempint000[5:5]</obj_property>
+      <obj_property name="ObjectShortName">tempint000[5:5]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\tempint000[5]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\tempint000[5]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\tempint000[5]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\tempint001[4]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\tempint001[4]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\tempint001[4]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\tempint001_reg_n_0_[4]\" type="logic">
+      <obj_property name="ElementShortName">\tempint001_reg_n_0_[4]\</obj_property>
+      <obj_property name="ObjectShortName">\tempint001_reg_n_0_[4]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0000" type="logic">
+      <obj_property name="ElementShortName">temporary0000</obj_property>
+      <obj_property name="ObjectShortName">temporary0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0000_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0000_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0000_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0000_reg_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0000_reg_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0000_reg_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0001_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0001_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0001_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0001_reg_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0001_reg_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0001_reg_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0002" type="logic">
+      <obj_property name="ElementShortName">temporary0002</obj_property>
+      <obj_property name="ObjectShortName">temporary0002</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0002[31]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\temporary0002[31]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0002[31]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0002[3]_i_2_n_0\" type="logic">
+      <obj_property name="ElementShortName">\temporary0002[3]_i_2_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0002[3]_i_2_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0002[3]_i_3_n_0\" type="logic">
+      <obj_property name="ElementShortName">\temporary0002[3]_i_3_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0002[3]_i_3_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0002[3]_i_4_n_0\" type="logic">
+      <obj_property name="ElementShortName">\temporary0002[3]_i_4_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0002[3]_i_4_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0002__0\" type="array">
+      <obj_property name="ElementShortName">\temporary0002__0\[31:0]</obj_property>
+      <obj_property name="ObjectShortName">\temporary0002__0\[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0002_reg[31]_i_1_n_3\" type="logic">
+      <obj_property name="ElementShortName">\temporary0002_reg[31]_i_1_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0002_reg[31]_i_1_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0002_reg[3]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\temporary0002_reg[3]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0002_reg[3]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0002_reg[3]_i_1_n_1\" type="logic">
+      <obj_property name="ElementShortName">\temporary0002_reg[3]_i_1_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0002_reg[3]_i_1_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0002_reg[3]_i_1_n_2\" type="logic">
+      <obj_property name="ElementShortName">\temporary0002_reg[3]_i_1_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0002_reg[3]_i_1_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0002_reg[3]_i_1_n_3\" type="logic">
+      <obj_property name="ElementShortName">\temporary0002_reg[3]_i_1_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0002_reg[3]_i_1_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0003" type="array">
+      <obj_property name="ElementShortName">temporary0003[31:1]</obj_property>
+      <obj_property name="ObjectShortName">temporary0003[31:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0003[3]_i_3_n_0\" type="logic">
+      <obj_property name="ElementShortName">\temporary0003[3]_i_3_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0003[3]_i_3_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0003_reg[31]_i_1_n_7\" type="logic">
+      <obj_property name="ElementShortName">\temporary0003_reg[31]_i_1_n_7\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0003_reg[31]_i_1_n_7\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0003_reg[3]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\temporary0003_reg[3]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0003_reg[3]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0003_reg[3]_i_1_n_1\" type="logic">
+      <obj_property name="ElementShortName">\temporary0003_reg[3]_i_1_n_1\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0003_reg[3]_i_1_n_1\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0003_reg[3]_i_1_n_2\" type="logic">
+      <obj_property name="ElementShortName">\temporary0003_reg[3]_i_1_n_2\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0003_reg[3]_i_1_n_2\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0003_reg[3]_i_1_n_3\" type="logic">
+      <obj_property name="ElementShortName">\temporary0003_reg[3]_i_1_n_3\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0003_reg[3]_i_1_n_3\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0003_reg[3]_i_1_n_4\" type="logic">
+      <obj_property name="ElementShortName">\temporary0003_reg[3]_i_1_n_4\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0003_reg[3]_i_1_n_4\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0003_reg[3]_i_1_n_5\" type="logic">
+      <obj_property name="ElementShortName">\temporary0003_reg[3]_i_1_n_5\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0003_reg[3]_i_1_n_5\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\temporary0003_reg[3]_i_1_n_6\" type="logic">
+      <obj_property name="ElementShortName">\temporary0003_reg[3]_i_1_n_6\</obj_property>
+      <obj_property name="ObjectShortName">\temporary0003_reg[3]_i_1_n_6\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004" type="logic">
+      <obj_property name="ElementShortName">temporary0004</obj_property>
+      <obj_property name="ObjectShortName">temporary0004</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_10_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_10_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_10_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_11_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_11_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_11_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_13_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_13_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_13_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_14_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_14_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_14_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_15_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_15_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_15_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_16_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_16_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_16_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_17_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_17_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_17_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_18_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_18_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_18_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_19_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_19_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_19_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_20_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_20_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_20_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_22_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_22_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_22_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_23_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_23_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_23_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_24_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_24_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_24_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_25_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_25_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_25_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_26_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_26_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_26_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_27_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_27_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_27_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_28_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_28_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_28_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_29_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_29_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_29_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_30_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_30_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_30_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_31_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_31_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_31_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_32_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_32_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_32_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_33_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_33_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_33_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_34_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_34_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_34_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_35_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_35_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_35_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_36_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_36_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_36_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_37_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_37_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_37_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_4_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_4_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_4_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_5_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_5_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_5_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_6_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_6_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_6_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_7_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_7_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_7_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_8_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_8_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_8_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_i_9_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_i_9_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_i_9_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_12_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_12_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_12_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_12_n_1" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_12_n_1</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_12_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_12_n_2" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_12_n_2</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_12_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_12_n_3" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_12_n_3</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_12_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_21_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_21_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_21_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_21_n_1" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_21_n_1</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_21_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_21_n_2" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_21_n_2</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_21_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_21_n_3" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_21_n_3</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_21_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_2_n_1" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_2_n_1</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_2_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_2_n_2" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_2_n_2</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_2_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_2_n_3" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_2_n_3</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_2_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_3_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_3_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_3_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_3_n_1" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_3_n_1</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_3_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_3_n_2" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_3_n_2</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_3_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_i_3_n_3" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_i_3_n_3</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_i_3_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0004_reg_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0004_reg_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0004_reg_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0005" type="logic">
+      <obj_property name="ElementShortName">temporary0005</obj_property>
+      <obj_property name="ObjectShortName">temporary0005</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0005_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0005_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0005_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0005_reg_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0005_reg_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0005_reg_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0006_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0006_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0006_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/temporary0006_reg_n_0" type="logic">
+      <obj_property name="ElementShortName">temporary0006_reg_n_0</obj_property>
+      <obj_property name="ObjectShortName">temporary0006_reg_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/v003_a" type="logic">
+      <obj_property name="ElementShortName">v003_a</obj_property>
+      <obj_property name="ObjectShortName">v003_a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1" type="logic">
+      <obj_property name="ElementShortName">var1</obj_property>
+      <obj_property name="ObjectShortName">var1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_10_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_10_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_10_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_11_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_11_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_11_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_12_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_12_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_12_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_14_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_14_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_14_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_15_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_15_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_15_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_16_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_16_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_16_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_17_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_17_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_17_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_18_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_18_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_18_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_19_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_19_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_19_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_20_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_20_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_20_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_21_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_21_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_21_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_22_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_22_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_22_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_23_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_23_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_23_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_24_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_24_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_24_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_4_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_4_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_4_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_5_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_5_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_5_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_6_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_6_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_6_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_7_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_7_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_7_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_i_9_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_i_9_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_i_9_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_13_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_13_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_13_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_13_n_1" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_13_n_1</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_13_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_13_n_2" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_13_n_2</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_13_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_13_n_3" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_13_n_3</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_13_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_2_n_1" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_2_n_1</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_2_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_2_n_2" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_2_n_2</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_2_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_2_n_3" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_2_n_3</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_2_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_3_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_3_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_3_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_3_n_1" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_3_n_1</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_3_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_3_n_2" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_3_n_2</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_3_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_3_n_3" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_3_n_3</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_3_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_8_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_8_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_8_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_8_n_1" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_8_n_1</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_8_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_8_n_2" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_8_n_2</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_8_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_i_8_n_3" type="logic">
+      <obj_property name="ElementShortName">var1_reg_i_8_n_3</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_i_8_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var1_reg_n_0" type="logic">
+      <obj_property name="ElementShortName">var1_reg_n_0</obj_property>
+      <obj_property name="ObjectShortName">var1_reg_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2" type="logic">
+      <obj_property name="ElementShortName">var2</obj_property>
+      <obj_property name="ObjectShortName">var2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_10_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_10_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_10_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_11_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_11_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_11_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_12_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_12_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_12_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_14_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_14_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_14_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_15_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_15_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_15_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_16_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_16_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_16_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_17_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_17_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_17_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_18_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_18_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_18_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_19_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_19_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_19_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_1_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_20_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_20_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_20_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_21_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_21_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_21_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_22_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_22_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_22_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_4_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_4_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_4_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_5_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_5_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_5_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_6_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_6_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_6_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_7_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_7_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_7_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_i_9_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_i_9_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_i_9_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_13_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_13_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_13_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_13_n_1" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_13_n_1</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_13_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_13_n_2" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_13_n_2</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_13_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_13_n_3" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_13_n_3</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_13_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_2_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_2_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_2_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_2_n_1" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_2_n_1</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_2_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_2_n_2" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_2_n_2</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_2_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_2_n_3" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_2_n_3</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_2_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_3_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_3_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_3_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_3_n_1" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_3_n_1</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_3_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_3_n_2" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_3_n_2</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_3_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_3_n_3" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_3_n_3</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_3_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_8_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_8_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_8_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_8_n_1" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_8_n_1</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_8_n_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_8_n_2" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_8_n_2</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_8_n_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_i_8_n_3" type="logic">
+      <obj_property name="ElementShortName">var2_reg_i_8_n_3</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_i_8_n_3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var2_reg_n_0" type="logic">
+      <obj_property name="ElementShortName">var2_reg_n_0</obj_property>
+      <obj_property name="ObjectShortName">var2_reg_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\var3[4]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\var3[4]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\var3[4]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\var3_reg_n_0_[4]\" type="logic">
+      <obj_property name="ElementShortName">\var3_reg_n_0_[4]\</obj_property>
+      <obj_property name="ObjectShortName">\var3_reg_n_0_[4]\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/var4" type="array">
+      <obj_property name="ElementShortName">var4[2:2]</obj_property>
+      <obj_property name="ObjectShortName">var4[2:2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\var4[2]_i_1_n_0\" type="logic">
+      <obj_property name="ElementShortName">\var4[2]_i_1_n_0\</obj_property>
+      <obj_property name="ObjectShortName">\var4[2]_i_1_n_0\</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\NLW_index000_reg[31]_i_2_CO_UNCONNECTED\" type="array">
+      <obj_property name="ElementShortName">\NLW_index000_reg[31]_i_2_CO_UNCONNECTED\[3:2]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_index000_reg[31]_i_2_CO_UNCONNECTED\[3:2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\NLW_index000_reg[31]_i_2_O_UNCONNECTED\" type="array">
+      <obj_property name="ElementShortName">\NLW_index000_reg[31]_i_2_O_UNCONNECTED\[3:3]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_index000_reg[31]_i_2_O_UNCONNECTED\[3:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\NLW_index001_reg[31]_i_2_CO_UNCONNECTED\" type="array">
+      <obj_property name="ElementShortName">\NLW_index001_reg[31]_i_2_CO_UNCONNECTED\[3:2]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_index001_reg[31]_i_2_CO_UNCONNECTED\[3:2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\NLW_index001_reg[31]_i_2_O_UNCONNECTED\" type="array">
+      <obj_property name="ElementShortName">\NLW_index001_reg[31]_i_2_O_UNCONNECTED\[3:3]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_index001_reg[31]_i_2_O_UNCONNECTED\[3:3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\NLW_temporary0002_reg[31]_i_1_CO_UNCONNECTED\" type="array">
+      <obj_property name="ElementShortName">\NLW_temporary0002_reg[31]_i_1_CO_UNCONNECTED\[3:1]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_temporary0002_reg[31]_i_1_CO_UNCONNECTED\[3:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\NLW_temporary0002_reg[31]_i_1_O_UNCONNECTED\" type="array">
+      <obj_property name="ElementShortName">\NLW_temporary0002_reg[31]_i_1_O_UNCONNECTED\[3:2]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_temporary0002_reg[31]_i_1_O_UNCONNECTED\[3:2]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\NLW_temporary0003_reg[31]_i_1_CO_UNCONNECTED\" type="array">
+      <obj_property name="ElementShortName">\NLW_temporary0003_reg[31]_i_1_CO_UNCONNECTED\[3:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_temporary0003_reg[31]_i_1_CO_UNCONNECTED\[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\NLW_temporary0003_reg[31]_i_1_O_UNCONNECTED\" type="array">
+      <obj_property name="ElementShortName">\NLW_temporary0003_reg[31]_i_1_O_UNCONNECTED\[3:1]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_temporary0003_reg[31]_i_1_O_UNCONNECTED\[3:1]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/\NLW_temporary0003_reg[3]_i_1_O_UNCONNECTED\" type="array">
+      <obj_property name="ElementShortName">\NLW_temporary0003_reg[3]_i_1_O_UNCONNECTED\[0:0]</obj_property>
+      <obj_property name="ObjectShortName">\NLW_temporary0003_reg[3]_i_1_O_UNCONNECTED\[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_temporary0004_reg_i_12_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_temporary0004_reg_i_12_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_temporary0004_reg_i_12_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_temporary0004_reg_i_2_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_temporary0004_reg_i_2_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_temporary0004_reg_i_2_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_temporary0004_reg_i_21_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_temporary0004_reg_i_21_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_temporary0004_reg_i_21_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_temporary0004_reg_i_3_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_temporary0004_reg_i_3_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_temporary0004_reg_i_3_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_var1_reg_i_13_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_var1_reg_i_13_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_var1_reg_i_13_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_var1_reg_i_2_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_var1_reg_i_2_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_var1_reg_i_2_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_var1_reg_i_3_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_var1_reg_i_3_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_var1_reg_i_3_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_var1_reg_i_8_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_var1_reg_i_8_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_var1_reg_i_8_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_var2_reg_i_13_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_var2_reg_i_13_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_var2_reg_i_13_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_var2_reg_i_2_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_var2_reg_i_2_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_var2_reg_i_2_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_var2_reg_i_3_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_var2_reg_i_3_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_var2_reg_i_3_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/main/NLW_var2_reg_i_8_O_UNCONNECTED" type="array">
+      <obj_property name="ElementShortName">NLW_var2_reg_i_8_O_UNCONNECTED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">NLW_var2_reg_i_8_O_UNCONNECTED[3:0]</obj_property>
+   </wvobject>
+</wave_config>

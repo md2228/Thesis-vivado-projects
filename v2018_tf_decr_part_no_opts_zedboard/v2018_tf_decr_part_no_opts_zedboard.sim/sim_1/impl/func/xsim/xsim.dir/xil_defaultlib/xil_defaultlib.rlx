@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/main_parcs.vhd,1674573899,vhdl,,,,main,,,,,,,,
+C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/pow_parcs.vhd,1672510844,vhdl,,,,pow,,,,,,,,
+C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/rotl_parcs.vhd,1672510844,vhdl,,,,rotl,,,,,,,,
+C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/rotr_parcs.vhd,1672510844,vhdl,C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/main_parcs.vhd;C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/pow_parcs.vhd;C:/Users/marga/Documents/input_for_vivado/2022-12-31-19-20-46_tf_decr_part_no_opts/rotl_parcs.vhd,,,rotr;tf_decr_part_no_opts,,,,,,,,
+C:/Users/marga/v2018_tf_decr_part_no_opts_zedboard/v2018_tf_decr_part_no_opts_zedboard.sim/sim_1/impl/func/xsim/sim_source_testbench_func_impl.vhd,1674578574,vhdl,,,,top_level_wrapper,,,,,,,,
+C:/Users/marga/v2018_tf_decr_part_no_opts_zedboard/v2018_tf_decr_part_no_opts_zedboard.srcs/sim_1/new/sim_source_testbench.vhd,1674574067,vhdl,,,,sim_source_testbench,,,,,,,,

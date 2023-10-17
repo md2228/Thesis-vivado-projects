@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Documents/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/rotr_parcs.vhd" \
+"../../../../../Documents/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/rotl_parcs.vhd" \
+"../../../../../Documents/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/pow_parcs.vhd" \
+"../../../../../Documents/input_for_vivado/2022-12-31-19-20-03_tf_decr_part_ofuil_ocbe3_ocie3/main_parcs.vhd" \
+"../../../../v2018_TRY2_tf_decr_part_ofuil_ocbe3_ocie3_zedboard.srcs/sim_1/new/sim_source_testbench.vhd" \
+
+# Do not sort compile order
+nosort

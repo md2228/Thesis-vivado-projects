@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Documents/input_for_vivado/2022-12-29-13-22-34_loop4_2_ofuilr/main_parcs.vhd" \
+
+# Do not sort compile order
+nosort

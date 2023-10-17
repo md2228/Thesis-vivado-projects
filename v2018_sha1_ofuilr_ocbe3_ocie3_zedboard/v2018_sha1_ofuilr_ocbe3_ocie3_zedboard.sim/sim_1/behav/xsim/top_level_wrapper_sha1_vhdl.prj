@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Documents/input_for_vivado/2023-01-27-17-34-38_sha1_ofuilr_ocbe3_ocie3/local_memcpy_parcs.vhd" \
+"../../../../v2018_sha1_ofuilr_ocbe3_ocie3_zedboard.srcs/sources_1/new/top_level_wrapper_sha1.vhd" \
+
+# Do not sort compile order
+nosort
